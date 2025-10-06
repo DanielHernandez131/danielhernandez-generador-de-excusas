@@ -23,7 +23,10 @@ window.onload = function() {
     return randomChoice(who) + " " + randomChoice(action) + " " + randomChoice(what) + " " + randomChoice(when) + ".";
   }
 
+  // const excuseElement = document.getElementById("excuse").textContent = generateExcuse();
+
   const excuseElement = document.getElementById("excuse");
+  
   if (excuseElement) {
     excuseElement.textContent = generateExcuse();
   }
